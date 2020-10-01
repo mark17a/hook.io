@@ -77,7 +77,7 @@ hook.io is very friendly with Unix Pipes. Using STDOUT and STDIN you can connect
 
 If you noticed in the last example, hook.io is fully capable of streaming binary data. It also supports streaming file uploads, multipart form uploads, and will assist in parsing all incoming form fields, JSON, and query string data.
 
-## Software Architecture
+## Software Architecture or Framework 
 
 The core software architecture of hook.io is Resource-View-Presenter ( RVP ).
 
@@ -86,7 +86,7 @@ Resources are created using the npm [resource](http://npmjs.org/package/resource
 View-Presenters are created using the npm [view](http://npmjs.org/package/view) module with regular HTML, CSS, and JavaScript. The same View-Presenter pattern is also used to implement custom theming for Hooks see: [hook.io/themes](https://hook.io/themes)
 
 
-## Server Architecture
+## Server Architecture / Framework 
 
 There is one front-facing HTTP server and any number of Hook Workers.
 
@@ -108,7 +108,7 @@ Source code for Hooks is currently stored on Github as Github Gists. I'd imagine
 
 It's very simple. Go to [https://hook.io/new](https://hook.io/new)
 
-## Support
+## Support/ Contact us for more  Help
 
 If you run into an issue, have a question, or have feedback with using hook.io you can open up a Github Issue by [clicking here](http://github.com/bigcompany/hook.io/issues/new)
 
